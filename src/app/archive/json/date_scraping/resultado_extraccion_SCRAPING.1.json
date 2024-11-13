@@ -1,296 +1,122 @@
 [
     {
-        "rut": "21252503-0",
-        "name": "Agustina Silva",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Septiembre de 2023"
-    },
-    {
-        "rut": "19313189-1",
-        "name": "Alamiro Pena",
-        "filiacion": "AFP MODELO",
-        "fecha": "15 de Febrero de 2014"
-    },
-    {
-        "rut": "20140716-8",
-        "name": "Alan Mosquera",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "6 de Noviembre de 2017"
-    },
-    {
-        "rut": "18078729-1",
-        "name": "Alberto Lefio",
-        "filiacion": "AFP PLANVITAL",
+        "__rut": "21252503-0",
+        "__name": "Agustina  Silva",
+        "afiliacion": "AFP PLANVITAL",
         "fecha": "1 de Octubre de 2023"
     },
     {
-        "rut": "19819623-1",
-        "name": "Alejandro Ibaceta",
-        "filiacion": "AFP MODELO",
+        "__rut": "19313189-1",
+        "__name": "Alamiro  Pena",
+        "afiliacion": "AFP MODELO",
+        "fecha": "15 de Febrero de 2014"
+    },
+    {
+        "__rut": "20140716-8",
+        "__name": "Alan  Mosquera",
+        "afiliacion": "AFP MODELO",
         "fecha": "1 de Julio de 2019"
     },
     {
-        "rut": "20591053-0",
-        "name": "Almendra Gonzales",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Noviembre de 2018"
+        "__rut": "18078729-1",
+        "__name": "Alberto  Lefio",
+        "afiliacion": "AFP PLANVITAL",
+        "fecha": "6 de Noviembre de 2017"
     },
     {
-        "rut": "16429460-9",
-        "name": "Alison Silva",
-        "filiacion": "AFP CAPITAL",
-        "fecha": "1 de Octubre de 2018"
-    },
-    {
-        "rut": "20063422-5",
-        "name": "Alonso Uzieda",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Abril de 2019"
-    },
-    {
-        "rut": "19905150-4",
-        "name": "Andre Tolentino",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Febrero de 2017"
-    },
-    {
-        "rut": "18488476-3",
-        "name": "Andrea Reinoso",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Diciembre de 2012"
-    },
-    {
-        "rut": "20917204-6",
-        "name": "Axel Alarcon",
-        "filiacion": "AFP CUPRUM",
-        "fecha": "1 de Junio de 2024"
-    },
-    {
-        "rut": "20099702-6",
-        "name": "Bastian Pineda",
-        "filiacion": "AFP UNO",
-        "fecha": "15 de Abril de 2021"
-    },
-    {
-        "rut": "26700328-9",
-        "name": "Brailyn Linares",
-        "filiacion": "AFP UNO",
-        "fecha": "1 de Febrero de 2021"
-    },
-    {
-        "rut": "19744996-9",
-        "name": "Braulio Candia",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Junio de 2014"
-    },
-    {
-        "rut": "20242804-5",
-        "name": "Braulio Crisostomo",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Abril de 2022"
-    },
-    {
-        "rut": "20434332-2",
-        "name": "Bryan Espinosa",
-        "filiacion": "AFP CAPITAL",
-        "fecha": "1 de Febrero de 2020"
-    },
-    {
-        "rut": "17264681-6",
-        "name": "Carla Beltran",
-        "filiacion": "AFP CAPITAL",
-        "fecha": "1 de Diciembre de 2015"
-    },
-    {
-        "rut": "20434426-4",
-        "name": "Catalina Alfaro",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Junio de 2019"
-    },
-    {
-        "rut": "19363056-1",
-        "name": "Catalina Lanas",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Enero de 2017"
-    },
-    {
-        "rut": "15345734-4",
-        "name": "Catherine Caro",
-        "filiacion": "AFP PROVIDA",
-        "fecha": "1 de Diciembre de 2007"
-    },
-    {
-        "rut": "20813795-6",
-        "name": "Chrystal Araya",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Diciembre de 2021"
-    },
-    {
-        "rut": "19427969-8",
-        "name": "Claudio Gallardo",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Diciembre de 2014"
-    },
-    {
-        "rut": "18455046-6",
-        "name": "Cristian Ureta",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Abril de 2011"
-    },
-    {
-        "rut": "20141900-K",
-        "name": "Cristobal Salazar",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Diciembre de 2017"
-    },
-    {
-        "rut": "20064037-3",
-        "name": "Cristobal Godoy",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Marzo de 2017"
-    },
-    {
-        "rut": "21509201-1",
-        "name": "Diego Rivera",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Marzo de 2022"
-    },
-    {
-        "rut": "26623560-7",
-        "name": "Eduardo Mujica",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Septiembre de 2018"
-    },
-    {
-        "rut": "20131335-K",
-        "name": "Enzo Ramirez Silva",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Febrero de 2018"
-    },
-    {
-        "rut": "19929196-3",
-        "name": "Fabian Pino",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Mayo de 2016"
-    },
-    {
-        "rut": "19931031-3",
-        "name": "Francisco Carrasco",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Enero de 2016"
-    },
-    {
-        "rut": "20063170-6",
-        "name": "Jaime Inostroza",
-        "filiacion": "AFP UNO",
-        "fecha": "1 de Agosto de 2020"
-    },
-    {
-        "rut": "20579845-5",
-        "name": "Javier Guinez",
-        "filiacion": "AFP UNO",
-        "fecha": "1 de Julio de 2021"
-    },
-    {
-        "rut": "21247608-0",
-        "name": "Javiera Manriquez",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Octubre de 2022"
-    },
-    {
-        "rut": "18325286-0",
-        "name": "Jessica Cordova",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Enero de 2019"
-    },
-    {
-        "rut": "19344935-2",
-        "name": "Jorge Figueroa",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Junio de 2017"
-    },
-    {
-        "rut": "21300436-0",
-        "name": "Jorge Soto",
-        "filiacion": "AFP MODELO",
-        "fecha": "1 de Febrero de 2022"
-    },
-    {
-        "rut": "19656405-5",
-        "name": "Karina Olea",
-        "filiacion": "AFP UNO",
-        "fecha": "1 de Marzo de 2021"
-    },
-    {
-        "rut": "19208417-2",
-        "name": "Kevin Ortega",
-        "filiacion": "AFP PLANVITAL",
+        "__rut": "19819623-1",
+        "__name": "Alejandro  Ibaceta",
+        "afiliacion": "AFP MODELO",
         "fecha": "1 de Septiembre de 2023"
     },
     {
-        "rut": "21265948-7",
-        "name": "Lucas Castillo",
-        "filiacion": "No se encontr\u00f3 afiliaci\u00f3n",
-        "fecha": "No se encontr\u00f3 fecha"
+        "__rut": "20591053-0",
+        "__name": "Almendra  Gonzales",
+        "afiliacion": "AFP MODELO",
+        "fecha": "1 de Noviembre de 2018"
     },
     {
-        "rut": "20951752-3",
-        "name": "Maciel Fernandez",
-        "filiacion": "AFP UNO",
-        "fecha": "15 de Marzo de 2021"
+        "__rut": "16429460-9",
+        "__name": "Alison  Silva",
+        "afiliacion": "AFP PLANVITAL",
+        "fecha": "1 de Febrero de 2017"
     },
     {
-        "rut": "19883707-5",
-        "name": "Marcelo Diaz",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Junio de 2016"
+        "__rut": "20063422-5",
+        "__name": "Alonso  Uzieda",
+        "afiliacion": "AFP CAPITAL",
+        "fecha": "1 de Octubre de 2018"
     },
     {
-        "rut": "20552372-3",
-        "name": "Marcela Mera",
-        "filiacion": "AFP UNO",
-        "fecha": "1 de Junio de 2020"
+        "__rut": "19905150-4",
+        "__name": "Andre  Tolentino",
+        "afiliacion": "AFP MODELO",
+        "fecha": "1 de Diciembre de 2012"
     },
     {
-        "rut": "21011565-K",
-        "name": "Maria Jose Paredes",
-        "filiacion": "AFP UNO",
-        "fecha": "1 de Febrero de 2024"
-    },
-    {
-        "rut": "19857871-1",
-        "name": "Matias Urbina",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Enero de 2018"
-    },
-    {
-        "rut": "20825278-K",
-        "name": "Nicole Becker",
-        "filiacion": "AFP UNO",
-        "fecha": "1 de Diciembre de 2019"
-    },
-    {
-        "rut": "19937931-3",
-        "name": "Nicolas Currieco",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Febrero de 2018"
-    },
-    {
-        "rut": "20063169-2",
-        "name": "Nicolas Inostroza",
-        "filiacion": "AFP MODELO",
+        "__rut": "18488476-3",
+        "__name": "Andrea  Reinoso",
+        "afiliacion": "AFP MODELO",
         "fecha": "1 de Abril de 2019"
     },
     {
-        "rut": "19883889-6",
-        "name": "Nicolas Ordonez",
-        "filiacion": "AFP PLANVITAL",
-        "fecha": "1 de Enero de 2016"
+        "__rut": "20917204-6",
+        "__name": "Axel  Alarcon",
+        "afiliacion": "AFP CUPRUM",
+        "fecha": "1 de Junio de 2024"
     },
     {
-        "rut": "20471175-5",
-        "name": "Nicolas Troncoso Avalos",
-        "filiacion": "AFP MODELO",
+        "__rut": "20099702-6",
+        "__name": "Bastian  Pineda",
+        "afiliacion": "AFP UNO",
+        "fecha": "1 de Febrero de 2021"
+    },
+    {
+        "__rut": "26700328-9",
+        "__name": "Brailyn  Linares",
+        "afiliacion": "AFP MODELO",
+        "fecha": "1 de Junio de 2014"
+    },
+    {
+        "__rut": "19744996-9",
+        "__name": "Braulio  Candia",
+        "afiliacion": "AFP MODELO",
+        "fecha": "1 de Abril de 2022"
+    },
+    {
+        "__rut": "20242804-5",
+        "__name": "Braulio  Crisostomo",
+        "afiliacion": "AFP UNO",
+        "fecha": "15 de Abril de 2021"
+    },
+    {
+        "__rut": "20434332-2",
+        "__name": "Bryan  Espinosa",
+        "afiliacion": "AFP PROVIDA",
+        "fecha": "1 de Diciembre de 2007"
+    },
+    {
+        "__rut": "17264681-6",
+        "__name": "Carla  Beltran",
+        "afiliacion": "AFP MODELO",
         "fecha": "1 de Junio de 2019"
+    },
+    {
+        "__rut": "20434426-4",
+        "__name": "Catalina  Alfaro",
+        "afiliacion": "AFP CAPITAL",
+        "fecha": "1 de Febrero de 2020"
+    },
+    {
+        "__rut": "19363056-1",
+        "__name": "Catalina  Lanas",
+        "afiliacion": "AFP CAPITAL",
+        "fecha": "1 de Diciembre de 2015"
+    },
+    {
+        "__rut": "15345734-4",
+        "__name": "Catherine  Caro",
+        "afiliacion": "AFP PLANVITAL",
+        "fecha": "1 de Enero de 2017"
     }
 ]
