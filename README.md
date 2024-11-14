@@ -1,67 +1,101 @@
-# Requisitos para ejecutar el script de extracción de datos y scraping de AFP
+# README - Instalación de Dependencias para la Aplicación
 
-Este documento proporciona una guía sobre las herramientas y bibliotecas que deben instalarse para ejecutar el script correctamente.
+Esta guía te ayudará a instalar todas las dependencias necesarias para que la aplicación funcione correctamente. Sigue los pasos a continuación para configurar tu entorno de desarrollo.
 
-## Requisitos previos
+## Requisitos Previos
 
-1. **Python**: Asegúrate de tener Python 3.9.7 (u otra versión compatible) instalado en tu sistema. Puedes descargarlo desde [Python.org](https://www.python.org/downloads/).
+- **Python 3.9 o superior**: La aplicación está escrita en Python, por lo que necesitas tener Python instalado.
+- **Pip**: El gestor de paquetes de Python, normalmente incluido con la instalación de Python.
+- **Entorno Virtual (opcional)**: Se recomienda utilizar un entorno virtual para evitar conflictos de versiones de dependencias.
 
-2. **Gestor de Paquetes `pip`**: Python debería venir con `pip` incluido. Puedes verificarlo ejecutando:
+## Instalación de Dependencias
+
+Para instalar todas las bibliotecas necesarias, sigue los siguientes pasos:
+
+1. **Clonar el Repositorio**
+   
+   Clona este repositorio en tu computadora local:
    ```sh
-   pip --version
+   git clone https://github.com/tomasmolinaarias/Prueba_dataScrape
+   cd Prueba_dataScrape
    ```
 
-3. **Google Chrome**: El script utiliza Google Chrome para automatizar el scraping de la web. Descarga la última versión de Chrome desde [aquí](https://www.google.com/chrome/).
-
-## Instalación de bibliotecas
-
-Para que el script funcione, necesitas instalar las siguientes bibliotecas de Python. Puedes instalarlas ejecutando los siguientes comandos en la terminal:
-
-1. **Selenium**: Para automatizar la navegación web.
+2. **Crear y Activar un Entorno Virtual** (opcional pero recomendado)
+   
+   Crear un entorno virtual para instalar las dependencias:
    ```sh
-   pip install selenium
+   python -m venv .venv
    ```
 
-2. **Webdriver Manager**: Para gestionar automáticamente el controlador de Chrome.
+   Activar el entorno virtual:
+   - En Windows:
+     ```sh
+     .\.venv\Scripts\activate
+     ```
+   - En MacOS/Linux:
+     ```sh
+     source .venv/bin/activate
+     ```
+
+3. **Instalar las Dependencias**
+
+   Ejecuta el siguiente comando para instalar todas las bibliotecas requeridas para la aplicación:
    ```sh
-   pip install webdriver-manager
+   pip install -r requirements.txt
    ```
 
-3. **PyPDF2**: Para extraer datos de los archivos PDF.
-   ```sh
-   pip install PyPDF2
-   ```
+   Si el archivo `requirements.txt` no está disponible, puedes instalar manualmente las siguientes dependencias:
+   
+   - **Tkinter**: Viene preinstalado con la mayoría de las distribuciones de Python.
+   - **PyPDF2**: Para la extracción de datos de los archivos PDF.
+     ```sh
+     pip install PyPDF2
+     ```
+   - **Pandas**: Para la exportación de los datos en formato Excel.
+     ```sh
+     pip install pandas
+     ```
+   - **Selenium**: Para realizar scraping automático con el navegador.
+     ```sh
+     pip install selenium
+     ```
+   - **Webdriver-Manager**: Para gestionar la instalación del driver de Chrome.
+     ```sh
+     pip install webdriver-manager
+     ```
+   - **Openpyxl**: Necesario para trabajar con archivos Excel (.xlsx).
+     ```sh
+     pip install openpyxl
+     ```
+   - **Pyperclip**: Para copiar el RUT al portapapeles (si es necesario).
+     ```sh
+     pip install pyperclip
+     ```
 
-4. **Pillow**: Para manejar imágenes si es necesario (aunque no se usa directamente en este script).
-   ```sh
-   pip install Pillow
-   ```
+## Configuración Adicional
 
-5. **Unicodedata**: Este módulo viene incluido en la instalación de Python, por lo que no necesitas instalarlo manualmente.
+1. **WebDriver de Chrome**: Selenium necesita el WebDriver de Chrome para automatizar las tareas en el navegador.
+   WebDriver-Manager se encarga de descargarlo automáticamente.
 
-## Archivos requeridos
+2. **Archivos PDF y JSON**: Asegúrate de tener una estructura de carpetas como se especifica en el código:
+   - `src/app/archive/pdf/` para los archivos PDF subidos.
+   - `src/app/archive/json/date_pdf/` para los JSON generados desde los PDF.
+   - `src/app/archive/json/date_scraping/` para los resultados del scraping.
 
-Asegúrate de tener los siguientes archivos en las ubicaciones correctas:
+## Ejecución de la Aplicación
 
-- **Archivo PDF** con los datos personales: Debe estar ubicado en `./src/app/archive/pdf/personal_data.pdf`.
-- **Archivos JSON** para almacenar los resultados de extracción y scraping:
-  - Carpeta de salida para extracción PDF: `./src/app/archive/json/date_pdf/`
-  - Carpeta de salida para scraping: `./src/app/archive/json/date_scraping/`
-  - Carpeta para el historial de consultas: `./src/app/archive/json/Historial_consulta/`
+Después de instalar las dependencias, puedes ejecutar la aplicación usando el siguiente comando:
+```sh
+python app.py
+```
 
-## Ejecución del script
+## Botón de Copiar RUT
 
-1. Clona el repositorio o asegúrate de tener todos los archivos necesarios.
-2. Navega hasta el directorio donde se encuentra el script `scraping_extration.py`.
-3. Ejecuta el script usando Python:
-   ```sh
-   python scraping_extration.py
-   ```
+En la interfaz gráfica, al lado de cada RUT se encuentra un botón que permite copiar el RUT al portapapeles. Esto facilita la gestión de los datos extraídos del PDF.
 
-## Notas adicionales
+## Notas
+- **Google Chrome**: Necesitas tener Google Chrome instalado para que Selenium funcione correctamente.
+- **Errores con dependencias**: Si encuentras problemas de módulos no encontrados, asegúrate de estar en el entorno virtual correcto y haber instalado todas las dependencias mencionadas.
 
-- **Límite de consultas**: El script está diseñado para realizar un máximo de 100 consultas por cada 24 horas para evitar bloqueos del sitio web.
-- **User-Agent**: El script utiliza un User-Agent aleatorio para simular un navegador real y evitar bloqueos automáticos por parte del servidor.
 
-Si experimentas algún problema o error, asegúrate de que todas las dependencias estén instaladas y que los archivos estén en sus ubicaciones respectivas.
 

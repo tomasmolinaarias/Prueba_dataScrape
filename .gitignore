@@ -1,0 +1,11 @@
+# Ignorar todos los archivos dentro de estas carpetas
+/src/app/archive/pdf/*
+/src/app/archive/json/date_pdf/*
+/src/app/archive/json/date_scraping/*
+/src/app/archive/json/Historial_consulta/*
+
+# Mantener las carpetas
+!src/app/archive/pdf/
+!src/app/archive/json/date_pdf/
+!src/app/archive/json/date_scraping/
+!src/app/archive/json/Historial_consulta/
